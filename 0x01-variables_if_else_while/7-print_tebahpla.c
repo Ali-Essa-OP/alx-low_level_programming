@@ -1,23 +1,25 @@
 #include <stdio.h>
+#include <stdlib.h>
+#include <time.h>
 
 /**
- * main -Entry point
+ * main - Entry point
  *
- * Description: print a - z in reverse
+ * Description: this is the main function
+ * Dvariablel n each time it is executed.
+ * its stord in n is pos
  *
- * Return: Always 0 (Success)
-*/
+ * Return: Always 0 (success)
+ */
 
 int main(void)
 {
-	char ch = 'z';
-
-	while (ch >= 'a')
-	{
-		putchar(ch);
-		ch++;
-	}
-	putchar('\n');
-
-	return (0);
+char chr = 'z';
+while (chr >= 'a')
+{
+putchar(chr);
+chr--;
+}
+putchar('\n');
+return (0);
 }
